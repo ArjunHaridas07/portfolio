@@ -1,0 +1,13 @@
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 68px;
+    font-size: 15px;
+    font-family: 'Red Hat Mono', monospace;
+justify-content:space-around;
+margin-top: 30px;
+}
+.footertxt{
+    margin-top: 80px;
+}

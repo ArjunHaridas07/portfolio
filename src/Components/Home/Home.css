@@ -1,0 +1,146 @@
+.homeright{
+    margin-top: 80px;
+    height: 480px;
+    margin-left: 100px;
+}
+.wave {
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
+  
+.name{
+    color: blueviolet;
+}  
+.hey{
+    margin-top: 230px;
+    margin-left: 200px;
+    
+}
+h2{
+    color: white;
+    font-family: 'Red Hat Mono', monospace;
+}
+.role{
+    color: blueviolet;
+    font-family: 'Red Hat Mono', monospace;
+}
+    .typing-text {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing 3s steps(18, end) forwards;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+.typing-text {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 3s steps(18, end) forwards;
+  }
+  
+  .typing-cursor {
+    display: inline-block;
+    animation: blink 1s infinite;
+    margin-left: 4px; /* Adjust the spacing between text and cursor as needed */
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  .intro{
+    font-family: 'Red Hat Mono', monospace;
+   color: white;
+   margin-left: 100px;
+   margin-top: 100px;
+  }
+  .avatar{
+    margin-top: 180px;
+    margin-left: 200px;
+  }
+  .aboutme{
+    justify-content: space-evenly;
+    color: white;
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: 100px;
+    line-height: 43px;
+  }
+  .find{
+    text-align: center;
+  }
+  .hfind{
+    margin-top: 40px;
+  }
+  /* Add space between social icons */
+.social-icons a {
+    margin-right: 13px; /* Adjust the value as needed to control the spacing */
+    color: aliceblue;
+    font-size: 20px;
+    
+  }
+  .social-icons{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .avatar:hover {
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+  }
+  @-webkit-keyframes flash {
+    0% {
+      opacity: .4;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes flash {
+    0% {
+      opacity: .4;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
